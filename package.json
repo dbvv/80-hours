@@ -1,0 +1,21 @@
+{
+  "name": "80-hours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "author": "dbvv",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  }
+}
