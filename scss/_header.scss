@@ -1,0 +1,15 @@
+header.common-header {
+  background: $blue;
+  padding: 18px 0px;
+
+  a, p, i {
+    color: #fff;
+  }
+
+  nav {
+    a.nav-link {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+  }
+}
