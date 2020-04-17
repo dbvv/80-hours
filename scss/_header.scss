@@ -3,13 +3,36 @@ header.common-header {
   padding: 18px 0px;
 
   a, p, i {
-    color: #fff;
+    color: #fefefe;
   }
 
   nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 100%;
     a.nav-link {
         text-transform: uppercase;
         font-size: 14px;
+        i {
+          margin-right: 5px;
+        }
     }
+  }
+
+  .telephone {
+    text-decoration: none;
+    width: 100%;
+    font-size: 0.8rem;
+    span {
+      font-weight: bold;
+      font-size: 0.8rem;
+    }
+    margin-bottom: 1rem;
+  }
+  a.btn {
+    margin-top: 11px;
   }
 }

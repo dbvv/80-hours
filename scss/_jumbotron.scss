@@ -1,0 +1,24 @@
+.jumbotron {
+  min-height: 700px;
+  background-image: url('/images/backpack-lady.png');
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 25%;
+  background-position-x: 10%;
+  h1 {
+    font-size: 3.5rem;
+    width: 100%;
+    margin-top: 10rem;
+    color: #fff;
+    text-shadow: 1px 1px #000, 2px 5px rgba(#000, 0.4);
+    span {
+      font-size: 5rem;
+    }
+  }
+  p {
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 1px 1px #000, 2px 3px rgba(#000, .4);
+  }
+}
